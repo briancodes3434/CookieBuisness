@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f3;
+    color: #4b2e2e;
+}
+
+header {
+    background-color: #f8d7da;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4b2e2e;
+    font-weight: bold;
+}
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button,
+button {
+    display: inline-block;
+    background-color: #a76545;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.cookie-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.cookie-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.cookie-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cookie-card h3 {
+    margin: 15px 0 10px;
+}
+
+.cookie-card p {
+    margin-bottom: 15px;
+}
+
+.cookie-card span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.order,
+.about {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.order h2,
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.order p,
+.about p {
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #4b2e2e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 800px) {
+
+    .cookie-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+    }
+}
