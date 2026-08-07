@@ -4,129 +4,424 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cookie Shop</title>
+    <title>MamaMe Cookies</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <h1 class="logo">🍪 Cookie Shop</h1>
+<header>
+    <nav>
+        <h1 class="logo">🍪 MamaMe Cookies</h1>
 
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#menu">Cookies</a>
-                <a href="#order">Order</a>
-                <a href="#about">About</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">Fresh • Homemade • Made With Love</p>
+
+            <h2>Cookies that make life a little sweeter.</h2>
+
+            <p>
+                Homemade cookies, brownies, blondies, cakes and treats
+                available for pickup and local delivery.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="button">View Menu</a>
+                <a href="#order" class="button secondary-button">Order Now</a>
             </div>
-        </nav>
-    </header>
+
+        </div>
+
+    </section>
 
 
-    <main>
+    <!-- FEATURED -->
+    <section class="featured">
 
-        <section id="home" class="hero">
+        <h2>Fresh From The Kitchen</h2>
 
-            <div class="hero-text">
-                <h2>Fresh Cookies Made With Love 🍪</h2>
+        <p class="section-description">
+            Handmade treats baked fresh for every order.
+        </p>
+
+        <div class="cookie-grid">
+
+            <div class="cookie-card">
+
+                <img
+                    src="images/chocolate-chip.jpg"
+                    alt="Chocolate chip cookies"
+                >
+
+                <h3>Classic Cookies</h3>
 
                 <p>
-                    Homemade cookies baked fresh and available
-                    for pickup or local delivery.
+                    Homemade favorites including chocolate chunk,
+                    peanut butter, sugar cookies and more.
                 </p>
 
-                <a href="#menu" class="button">View Cookies</a>
             </div>
 
-        </section>
 
+            <div class="cookie-card">
 
-        <section id="menu" class="menu">
+                <img
+                    src="images/brownies.jpg"
+                    alt="Fresh brownies"
+                >
 
-            <h2>Our Cookies</h2>
+                <h3>Brownies & Bars</h3>
 
-            <div class="cookie-grid">
-
-                <div class="cookie-card">
-                    <img src="images/chocolate-chip.jpg" alt="Chocolate Chip Cookie">
-
-                    <h3>Chocolate Chip</h3>
-
-                    <p>
-                        Classic homemade cookie packed with
-                        chocolate chips.
-                    </p>
-
-                    <span>$3.50</span>
-                </div>
-
-
-                <div class="cookie-card">
-                    <img src="images/sugar-cookie.jpg" alt="Sugar Cookie">
-
-                    <h3>Sugar Cookie</h3>
-
-                    <p>
-                        Soft and sweet sugar cookie baked fresh.
-                    </p>
-
-                    <span>$3.00</span>
-                </div>
-
-
-                <div class="cookie-card">
-                    <img src="images/cookies-cream.jpg" alt="Cookies and Cream Cookie">
-
-                    <h3>Cookies & Cream</h3>
-
-                    <p>
-                        Loaded with cookies and creamy white chocolate.
-                    </p>
-
-                    <span>$4.00</span>
-                </div>
+                <p>
+                    Fudgy brownies, brookies, chocolate chip bars
+                    and strawberry blondies.
+                </p>
 
             </div>
 
-        </section>
+
+            <div class="cookie-card">
+
+                <img
+                    src="images/specialty-cookie.jpg"
+                    alt="Specialty cookies"
+                >
+
+                <h3>Specialty Cookies</h3>
+
+                <p>
+                    Unique flavors perfect for parties,
+                    gifts and special occasions.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
-        <section id="order" class="order">
+    <!-- MENU -->
+    <section id="menu" class="menu">
 
-            <h2>Order Cookies</h2>
+        <p class="small-title">Something Sweet For Everyone</p>
+
+        <h2>Our Menu</h2>
+
+
+        <div class="menu-container">
+
+
+            <!-- TRADITIONAL -->
+
+            <div class="menu-category">
+
+                <div class="category-header">
+                    <h3>🍪 Traditional Cookies</h3>
+                    <span>$18 / Dozen</span>
+                </div>
+
+                <div class="menu-items">
+
+                    <p>Chocolate Chunk</p>
+                    <p>Oatmeal Raisin</p>
+                    <p>Peanut Butter</p>
+                    <p>Sugar</p>
+                    <p>Double Chocolate Chip</p>
+                    <p>Almond</p>
+                    <p>Mexican Sugar Cookie</p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SPECIALTY -->
+
+            <div class="menu-category">
+
+                <div class="category-header">
+                    <h3>✨ Specialty Cookies</h3>
+                    <span>$21 / Dozen</span>
+                </div>
+
+                <div class="menu-items">
+
+                    <p>Peanut Butter Blossom</p>
+                    <p>Birthday Cake</p>
+                    <p>Strawberry Jello Sugar Cookie</p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- BARS -->
+
+            <div class="menu-category">
+
+                <div class="category-header">
+                    <h3>🍫 Bars & Brownies</h3>
+                </div>
+
+                <div class="priced-item">
+                    <p>Fudgy Brownies</p>
+                    <span>$16 Half / $32 Full</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>Chocolate Chip Bars</p>
+                    <span>$16 Half / $32 Full</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>Brookies</p>
+                    <span>$16 Half / $32 Full</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>Strawberry Blondies</p>
+                    <span>$16 Half / $32 Full</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>Decorated Brownies</p>
+                    <span>$24 Half / $48 Full</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>Frosted Lemon Blondies</p>
+                    <span>$27 Half / $52 Full</span>
+                </div>
+
+            </div>
+
+
+
+            <!-- LOAVES -->
+
+            <div class="menu-category">
+
+                <div class="category-header">
+                    <h3>🍞 Homemade Loaves</h3>
+                    <span>$15</span>
+                </div>
+
+                <div class="menu-items">
+
+                    <p>Banana Pecan</p>
+                    <p>Banana Chocolate Chip</p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- OTHER TREATS -->
+
+            <div class="menu-category">
+
+                <div class="category-header">
+                    <h3>🧁 More Sweet Treats</h3>
+                </div>
+
+                <div class="priced-item">
+                    <p>Oatmeal Cream Pie</p>
+                    <span>$4</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>Copycat Bundt Cake</p>
+                    <span>$35</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>Copycat Coconut Cake</p>
+                    <span>$50</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>1-Dozen Cookie Bouquet</p>
+                    <span>$25</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>Homemade Caramels</p>
+                    <span>$10 / Bag</span>
+                </div>
+
+            </div>
+
+
+
+            <!-- GIFT BOXES -->
+
+            <div class="menu-category">
+
+                <div class="category-header">
+                    <h3>🎁 Gift Boxes & Party Trays</h3>
+                </div>
+
+                <div class="priced-item">
+                    <p>
+                        Small Box
+                        <small>4 bars + 4 cookies</small>
+                    </p>
+                    <span>$14</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>
+                        Large Box
+                        <small>30 cookies — 10 of each type</small>
+                    </p>
+                    <span>$48</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>
+                        Variety Box
+                        <small>8 bars + 12 cookies</small>
+                    </p>
+                    <span>$34</span>
+                </div>
+
+                <div class="priced-item">
+                    <p>
+                        16" Party Platter
+                        <small>1 dozen cookies + choice of 32 bite-size bars</small>
+                    </p>
+                    <span>$35</span>
+                </div>
+
+                <div class="special-note">
+                    +$10 to decorate boxes for special occasions
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ORDER -->
+
+    <section id="order" class="order">
+
+        <p class="small-title">Ready For Something Sweet?</p>
+
+        <h2>Place Your Order</h2>
+
+        <p>
+            Choose pickup or local delivery when placing your order.
+            Shipping is not currently available.
+        </p>
+
+
+        <div class="delivery-options">
+
+            <div class="delivery-card">
+                <div class="delivery-icon">🛍️</div>
+                <h3>Pickup</h3>
+                <p>Place your order online and pick it up when it's ready.</p>
+            </div>
+
+
+            <div class="delivery-card">
+                <div class="delivery-icon">🚗</div>
+                <h3>Local Delivery</h3>
+                <p>Have your fresh treats delivered locally.</p>
+            </div>
+
+        </div>
+
+
+        <button id="orderButton">Start Your Order 🍪</button>
+
+    </section>
+
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+        <div class="about-content">
+
+            <p class="small-title">About MamaMe</p>
+
+            <h2>Homemade With Love</h2>
 
             <p>
-                Pickup and local delivery available.
+                MamaMe Cookies creates homemade cookies, brownies,
+                cakes and treats perfect for everyday cravings,
+                celebrations, gifts and parties.
             </p>
-
-            <button>Start Order</button>
-
-        </section>
-
-
-        <section id="about" class="about">
-
-            <h2>About Us</h2>
 
             <p>
-                We make fresh homemade cookies for our local community.
+                Every order is prepared with care and made to bring
+                a little more sweetness to your day.
             </p>
 
-        </section>
+        </div>
 
-    </main>
-
-
-    <footer>
-
-        <p>© 2026 Cookie Shop. All rights reserved.</p>
-
-    </footer>
+    </section>
 
 
-    <script src="script.js"></script>
+</main>
+
+
+
+<footer>
+
+    <h2>🍪 MamaMe Cookies</h2>
+
+    <p>Fresh homemade sweets for pickup & local delivery.</p>
+
+    <div class="footer-links">
+
+        <a
+            href="https://instagram.com/cookiemamame"
+            target="_blank"
+        >
+            Instagram: @cookiemamame
+        </a>
+
+        <a href="mailto:mamame3715@gmail.com">
+            mamame3715@gmail.com
+        </a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 MamaMe Cookies. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
