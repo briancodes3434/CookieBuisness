@@ -3,13 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Cookie Shop</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Welcome to Our Cookie Shop 🍪</h1>
-    <p>Fresh, homemade cookies available for pickup and local delivery.</p>
+    <header>
+        <nav>
+            <h1 class="logo">🍪 Cookie Shop</h1>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#menu">Cookies</a>
+                <a href="#order">Order</a>
+                <a href="#about">About</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-text">
+                <h2>Fresh Cookies Made With Love 🍪</h2>
+
+                <p>
+                    Homemade cookies baked fresh and available
+                    for pickup or local delivery.
+                </p>
+
+                <a href="#menu" class="button">View Cookies</a>
+            </div>
+
+        </section>
+
+
+        <section id="menu" class="menu">
+
+            <h2>Our Cookies</h2>
+
+            <div class="cookie-grid">
+
+                <div class="cookie-card">
+                    <img src="images/chocolate-chip.jpg" alt="Chocolate Chip Cookie">
+
+                    <h3>Chocolate Chip</h3>
+
+                    <p>
+                        Classic homemade cookie packed with
+                        chocolate chips.
+                    </p>
+
+                    <span>$3.50</span>
+                </div>
+
+
+                <div class="cookie-card">
+                    <img src="images/sugar-cookie.jpg" alt="Sugar Cookie">
+
+                    <h3>Sugar Cookie</h3>
+
+                    <p>
+                        Soft and sweet sugar cookie baked fresh.
+                    </p>
+
+                    <span>$3.00</span>
+                </div>
+
+
+                <div class="cookie-card">
+                    <img src="images/cookies-cream.jpg" alt="Cookies and Cream Cookie">
+
+                    <h3>Cookies & Cream</h3>
+
+                    <p>
+                        Loaded with cookies and creamy white chocolate.
+                    </p>
+
+                    <span>$4.00</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="order" class="order">
+
+            <h2>Order Cookies</h2>
+
+            <p>
+                Pickup and local delivery available.
+            </p>
+
+            <button>Start Order</button>
+
+        </section>
+
+
+        <section id="about" class="about">
+
+            <h2>About Us</h2>
+
+            <p>
+                We make fresh homemade cookies for our local community.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>© 2026 Cookie Shop. All rights reserved.</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
